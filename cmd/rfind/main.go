@@ -63,6 +63,7 @@ func customUsage() {
 	cmd := os.Args[0]
 
 	_, _ = fmt.Fprintf(os.Stderr, `%s: A command-line tool that searches for files in reverse order (i.e. to ancestor direction).
+The result of the found files' paths ensures that they are ordered by the length of the match, with longer matches appearing first.
 Usage:
   %s [OPTIONS] ORIGIN_PATH TARGETS...
 Options:

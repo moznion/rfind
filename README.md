@@ -2,6 +2,8 @@
 
 A command-line tool that searches for files in reverse order (i.e. to ancestor direction).
 
+The result of the found files' paths ensures that they are ordered by the length of the match, with longer matches appearing first.
+
 ## Usage
 
 ```
